@@ -1,0 +1,27 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "897108e2752b3f262a1dd8d1f7bbf7c1"
+            }
+        ],
+        "target_uinput": "keyboard + mouse",
+        "output_symbol": "BTN_RIGHT",
+        "mapping_type": "key_macro",
+        "release_combination_keys": false
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 70,
+                "origin_hash": "897108e2752b3f262a1dd8d1f7bbf7c1"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Caps_Lock",
+        "mapping_type": "key_macro"
+    }
+]

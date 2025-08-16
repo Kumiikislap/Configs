@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Firefox
+Comment=
+Exec=firefox
+Icon=/home/kumii39/Documents/Icons/internet.png
+Path=
+Terminal=false
+StartupNotify=false
+X-XFCE-Source=file:///home/kumii39/Desktop/Fixfox.desktop

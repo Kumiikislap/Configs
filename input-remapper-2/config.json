@@ -1,0 +1,8 @@
+{
+    "version": "2.1.1",
+    "autoload": {
+        "SONiX USB Keyboard": "RBM config",
+        "SEMICO   USB Gaming Keyboard ": "Vim motions",
+        "USB Optical Mouse ": "new preset"
+    }
+}

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Discord
+StartupWMClass=discord
+Comment=
+GenericName=Internet Messenger
+Exec=/home/kumii39/Programs/Discord/Discord
+Icon=/home/kumii39/Documents/Icons/Discord.png
+Type=Application
+Categories=Network;InstantMessaging;
+Path=
+X-XFCE-Source=file:///opt/discord/discord.desktop
+Terminal=false
+StartupNotify=false

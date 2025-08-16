@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=kitty
+GenericName=Terminal emulator
+Comment=Fast, feature-rich, GPU based terminal
+Icon=/home/kumii39/Documents/Icons/TaskManager.png
+TryExec=kitty
+Exec=kitty
+Actions=
+Categories=System;TerminalEmulator;
+StartupNotify=true
+X-XFCE-Source=file:///home/kumii39/.local/share/applications/kitty.desktop
+Path=
+Terminal=false

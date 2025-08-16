@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1742375714164313-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>/home/kumii39/Documents/doc/nyonyo_koori.png</icon>
+	<name>Open Neovim</name>
+	<submenu></submenu>
+	<unique-id>1754918670472952-1</unique-id>
+	<command>kitty nvim %f</command>
+	<description>opens nvim on selected file</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>/home/kumii39/Documents/Icons/txt.png</icon>
+	<name>Copy File Path</name>
+	<submenu></submenu>
+	<unique-id>1742792284027418-1</unique-id>
+	<command>echo -n %f | xclip -selection clipboard</command>
+	<description>Copies file location path</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+</action>
+</actions>
