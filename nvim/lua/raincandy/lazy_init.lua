@@ -16,3 +16,13 @@ require('lazy').setup({
 	spec = 'raincandy.lazy',
 	change_detection = { notify = false }
 })
+
+function gdshader()
+	vim.lsp.start {
+	   name = "gdshader-lsp",
+       cmd = {
+           "<path to gdshader-lsp binary>",
+       },
+       capabilities = vim.lsp.protocol.make_client_capabilities()
+	}
+end

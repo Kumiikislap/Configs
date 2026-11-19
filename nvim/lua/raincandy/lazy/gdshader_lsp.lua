@@ -1,0 +1,3 @@
+return {
+	'GodOfAvacyn/gdshader-lsp'
+}

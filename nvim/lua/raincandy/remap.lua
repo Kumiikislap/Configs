@@ -19,10 +19,26 @@ vim.keymap.set('n', '<C-s>', ':update<cr>', {})
 
 vim.keymap.set('i', '<C-s>', ':update<cr>', {})
 
-vim.keymap.set('n', '<leader>r', ':CMakeRun<cr>')
+--vim.keymap.set('n', '<leader>r', ':CMakeRun<cr>')
 
 vim.keymap.set('n', '<leader>t', ':ToggleTerm<cr>')
 vim.keymap.set('t', '<C-k>', '<Cmd>wincmd k<CR>') --switching to vim
 
 vim.keymap.set({ 'n' }, '<C-k>', function()       require('lsp_signature').toggle_float_win()
 end, { silent = true, noremap = true, desc = 'toggle signature' })
+
+--local M = {}
+--
+--M.dap = {
+--	plugin = true,
+--	n = {
+--		["<leader>db"] = {
+--			"<cmd> DapToggleBreakpoint <CR>",
+--			"Add breakpoint at line",
+--		},
+--		["<leader>dr"] = {   --start debugger
+--			"<cmd> DapContinue <CR>",
+--			"Start or continue the debugger",
+--		},
+--	},
+--}
